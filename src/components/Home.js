@@ -1,7 +1,7 @@
 import React from "react";
+import {username, city} from "../data/user";
 
 function Home() {
-  const [username, city] = ["Antony Gakuru", "Dagoretti South"];
   return (
     <div id="home">
       <h1>
